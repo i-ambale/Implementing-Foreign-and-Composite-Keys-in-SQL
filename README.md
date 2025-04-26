@@ -67,8 +67,8 @@ This project demonstrates how to split a larger dataset into smaller tables and 
 - Always ensure referenced tables exist before creating foreign key constraints.
 
 ---
-📸 Example SQL Queries
 
+📸 Example SQL Queries
 ```
 CREATE TABLE Basic_services (
     Country_name VARCHAR(255),
@@ -88,6 +88,7 @@ CREATE TABLE Economic_indicators (
     FOREIGN KEY (Country_name) REFERENCES Countries(Country_name)
 );
 ```
+
 ## 📖 How to Run
 1. Open MySQL Workbench and connect to your local server.
 
