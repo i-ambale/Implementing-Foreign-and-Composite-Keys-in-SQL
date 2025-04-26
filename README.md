@@ -68,6 +68,7 @@ This project demonstrates how to split a larger dataset into smaller tables and 
 
 ---
 📸 Example SQL Queries
+
 ```
 CREATE TABLE Basic_services (
     Country_name VARCHAR(255),
