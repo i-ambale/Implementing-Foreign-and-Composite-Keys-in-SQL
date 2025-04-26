@@ -86,7 +86,6 @@ CREATE TABLE Economic_indicators (
     PRIMARY KEY (Country_name, Time_period),
     FOREIGN KEY (Country_name) REFERENCES Countries(Country_name)
 );
-
 ```
 ## 📖 How to Run
 1. Open MySQL Workbench and connect to your local server.
